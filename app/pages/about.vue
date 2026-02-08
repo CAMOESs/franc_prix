@@ -29,8 +29,8 @@
           <div
             v-for="(section, index) in sections"
             :key="index"
-            class="opacity-0 translate-y-8 transition-all duration-1000"
-            :class="{ 'animate-slide-up': isVisible }"
+            class="opacity-1 translate-y-8 transition-all duration-1000"
+            :class="{ 'animate-slide-up': true }"
             :style="{ transitionDelay: `${index * 200}ms` }"
           >
             <h2 class="text-3xl md:text-4xl font-display font-bold text-frost-900 mb-6">
@@ -141,7 +141,7 @@ const isVisible = ref(false)
 const sections = [
   {
     title: 'Notre histoire',
-    content: 'FRANC-PRIX est né d\'une passion pour l\'excellence et la qualité. Fondé par des experts du commerce de détail, notre centre commercial premium s\'est rapidement imposé comme une référence dans le secteur. Notre mission : offrir à nos clients une expérience d\'achat unique, alliant fraîcheur, qualité et modernité.'
+    content: 'FRANC-PRIX est né d\'une passion pour l\'excellence et la qualité. Fondé par des experts du commerce de détail, notre centre commercial  s\'est rapidement imposé comme une référence dans le secteur. Notre mission : offrir à nos clients une expérience d\'achat unique, alliant fraîcheur, qualité et modernité.'
   },
   {
     title: 'Notre vision',
@@ -149,7 +149,7 @@ const sections = [
   },
   {
     title: 'Notre différence',
-    content: 'Ce qui nous distingue, c\'est notre engagement envers la qualité. Chaque produit est soigneusement sélectionné selon des critères stricts. Nous privilégions les producteurs locaux, les produits frais et les marques premium qui partagent nos valeurs d\'excellence et de durabilité.'
+    content: 'Ce qui nous distingue, c\'est notre engagement envers la qualité. Chaque produit est soigneusement sélectionné selon des critères stricts. Nous privilégions les producteurs locaux, les produits frais et les marques  qui partagent nos valeurs d\'excellence et de durabilité.'
   }
 ]
 
@@ -180,7 +180,7 @@ onMounted(() => {
 useHead({
   title: 'À propos - FRANC-PRIX',
   meta: [
-    { name: 'description', content: 'Découvrez l\'histoire et les valeurs de FRANC-PRIX, votre centre commercial premium.' }
+    { name: 'description', content: 'Découvrez l\'histoire et les valeurs de FRANC-PRIX, votre centre commercial .' }
   ]
 })
 </script>

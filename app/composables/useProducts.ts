@@ -2,28 +2,76 @@ export const useProducts = () => {
   const categories = [
     {
       id: 'boissons',
-      nom: 'Boissons',
+      nom: 'Bière-Sucrerie-Jus',
       count: 12,
       image: 'https://images.pexels.com/photos/50593/coca-cola-cold-drink-soft-drink-coke-50593.jpeg?auto=compress&cs=tinysrgb&w=800'
     },
     {
-      id: 'snacks',
-      nom: 'Snacks',
-      count: 15,
-      image: 'https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?auto=compress&cs=tinysrgb&w=800'
+      id: 'biscuiterie',
+      nom: 'Biscuiterie',
+      count: 12,
+      image: '/cat_biscuit.jpg'
     },
     {
-      id: 'frais',
-      nom: 'Produits Frais',
-      count: 20,
+      id: 'caves_liqueurs',
+      nom: 'Caves & Liqueurs',
+      count: 12,
+      image: '/cat_caves.jpg'
+    },
+    {
+      id: 'charcuterie',
+      nom: 'Charcuterie',
+      count: 12,
+      image: '/cat_charcuterie.jpg'
+    },
+    {
+      id: 'coin-bebe',
+      nom: 'Coin bébé',
+      count: 12,
+      image: 'cat_bebe_.jpg'
+    },
+    {
+      id: 'droguerie',
+      nom: 'Droguerie',
+      count: 12,
+      image: '/cat_droguerie.jpg'
+    },
+    {
+      id: 'epicerie',
+      nom: 'Épicerie',
+      count: 12,
       image: 'https://images.pexels.com/photos/1435904/pexels-photo-1435904.jpeg?auto=compress&cs=tinysrgb&w=800'
     },
     {
-      id: 'autres',
-      nom: 'Autres Produits',
-      count: 8,
-      image: 'https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&cs=tinysrgb&w=800'
-    }
+      id: 'pafumerie',
+      nom: 'Pafumerie',
+      count: 12,
+      image: '/cat_parfumerie.jpg'
+    },
+    {
+      id: 'papeterie',
+      nom: 'Papeterie',
+      count: 12,
+      image: '/cat_papeterie.jpg'
+    },
+    // {
+    //   id: 'snacks',
+    //   nom: 'Snacks',
+    //   count: 15,
+    //   image: 'https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?auto=compress&cs=tinysrgb&w=800'
+    // },
+    // {
+    //   id: 'frais',
+    //   nom: 'Produits Frais',
+    //   count: 20,
+    //   image: 'https://images.pexels.com/photos/1435904/pexels-photo-1435904.jpeg?auto=compress&cs=tinysrgb&w=800'
+    // },
+    // {
+    //   id: 'autres',
+    //   nom: 'Autres Produits',
+    //   count: 8,
+    //   image: 'https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&cs=tinysrgb&w=800'
+    // }
   ]
 
   const conversionEuroToCFA = (euro:any) => {

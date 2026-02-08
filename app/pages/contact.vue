@@ -179,7 +179,7 @@
               class="px-8 py-4 bg-gradient-to-r from-ice-500 to-ice-600 text-white rounded-full font-semibold text-lg transition-all duration-300 hover:shadow-xl hover:scale-105 active:scale-95"
             >Appelez-nous</a>
             <a
-              href="mailto:contact@freeze.fr"
+              href="mailto:contact@francprix.fr"
               class="px-8 py-4 bg-white text-ice-600 border-2 border-ice-500 rounded-full font-semibold text-lg transition-all duration-300 hover:bg-ice-50 hover:scale-105"
             >Envoyez un email</a>
           </div>
@@ -215,16 +215,16 @@ const contactInfo = [
   },
   {
     title: "Email",
-    content: "contact@freeze.fr",
+    content: "contact@francprix.fr",
     icon:
       "M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
   }
 ];
 
 const openingHours = [
-  { day: "Lundi - Vendredi", hours: "8h00 - 20h00" },
-  { day: "Samedi", hours: "9h00 - 21h00" },
-  { day: "Dimanche", hours: "10h00 - 19h00" }
+  { day: "Lundi - Dimanche", hours: "8h00 - 23h00" },
+  // { day: "Samedi", hours: "9h00 - 21h00" },
+  // { day: "Dimanche", hours: "10h00 - 19h00" }
 ];
 
 const handleSubmit = () => {

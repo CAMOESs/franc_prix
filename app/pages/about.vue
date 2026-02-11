@@ -6,7 +6,7 @@
         :style="{ transform: `translateY(${scrollY * 0.5}px)` }"
       >
         <img
-          src="https://images.pexels.com/photos/3856433/pexels-photo-3856433.jpeg?auto=compress&cs=tinysrgb&w=1920"
+          src="/banner.png"
           alt="About FRANC-PRIX"
           class="w-full h-full object-cover"
         />

@@ -7,7 +7,7 @@
       >
         <img
           src="/banner.png"
-          alt="About FRANC-PRIX"
+          alt="About FRANCPRIX"
           class="w-full h-full object-cover"
         />
         <div class="absolute inset-0 bg-gradient-to-b from-frost-900/70 via-frost-900/50 to-white"></div>
@@ -15,7 +15,7 @@
 
       <div class="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <h1 class="text-5xl md:text-7xl font-display font-bold text-white mb-6 animate-fade-in">
-          À propos de <span class="bg-gradient-to-r from-ice-300 to-ice-500 bg-clip-text text-transparent whitespace-nowrap mt-5">FRANC-PRIX</span>
+          À propos de <span class="bg-gradient-to-r from-ice-300 to-ice-500 bg-clip-text text-transparent whitespace-nowrap mt-5">FRANCPRIX</span>
         </h1>
         <p class="text-xl md:text-2xl text-frost-100 animate-slide-up">
           L'excellence au service de votre quotidien
@@ -82,7 +82,7 @@
                 Notre engagement
               </h2>
               <p class="text-lg text-frost-600 leading-relaxed">
-                Depuis notre création, FRANC-PRIX s'engage à offrir une expérience d'achat exceptionnelle. Chaque jour, nous sélectionnons avec soin les meilleurs produits pour répondre à vos attentes.
+                Depuis notre création, FRANCPRIX s'engage à offrir une expérience d'achat exceptionnelle. Chaque jour, nous sélectionnons avec soin les meilleurs produits pour répondre à vos attentes.
               </p>
               <p class="text-lg text-frost-600 leading-relaxed">
                 Notre équipe passionnée travaille sans relâche pour maintenir les standards les plus élevés en matière de qualité, de fraîcheur et de service client.
@@ -98,7 +98,7 @@
             <div class="relative">
               <img
                 src="https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="FRANC-PRIX Store"
+                alt="FRANCPRIX Store"
                 class="rounded-2xl shadow-2xl"
               />
               <div class="absolute -bottom-6 -right-6 bg-ice-500 text-white p-8 rounded-2xl shadow-xl">
@@ -115,7 +115,7 @@
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto text-center">
           <h2 class="text-4xl md:text-5xl font-display font-bold mb-6">
-            Rejoignez la communauté FRANC-PRIX
+            Rejoignez la communauté FRANCPRIX
           </h2>
           <p class="text-xl text-ice-100 mb-8">
             Découvrez nos offres exclusives et restez informé de nos nouveautés
@@ -141,7 +141,7 @@ const isVisible = ref(false)
 const sections = [
   {
     title: 'Notre histoire',
-    content: 'FRANC-PRIX est né d\'une passion pour l\'excellence et la qualité. Fondé par des experts du commerce de détail, notre centre commercial  s\'est rapidement imposé comme une référence dans le secteur. Notre mission : offrir à nos clients une expérience d\'achat unique, alliant fraîcheur, qualité et modernité.'
+    content: 'FRANCPRIX est né d\'une passion pour l\'excellence et la qualité. Fondé par des experts du commerce de détail, notre centre commercial  s\'est rapidement imposé comme une référence dans le secteur. Notre mission : offrir à nos clients une expérience d\'achat unique, alliant fraîcheur, qualité et modernité.'
   },
   {
     title: 'Notre vision',
@@ -178,9 +178,9 @@ onMounted(() => {
 })
 
 useHead({
-  title: 'À propos - FRANC-PRIX',
+  title: 'À propos - FRANCPRIX',
   meta: [
-    { name: 'description', content: 'Découvrez l\'histoire et les valeurs de FRANC-PRIX, votre centre commercial .' }
+    { name: 'description', content: 'Découvrez l\'histoire et les valeurs de FRANCPRIX, votre centre commercial .' }
   ]
 })
 </script>

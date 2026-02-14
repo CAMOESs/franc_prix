@@ -4,10 +4,10 @@
     <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
       <div class="space-y-4">
         <h3 class="text-2xl font-display font-bold bg-gradient-to-r from-ice-400 to-ice-600 bg-clip-text text-transparent">
-          FRANC-PRIX
+          FRANCPRIX
         </h3>
         <p class="text-frost-300 text-sm">
-          Votre centre commercial premium pour des produits frais et des boissons rafraîchissantes.
+          Votre centre commercial pour des produits de qualité supérieure.
         </p>
       </div>
 
@@ -28,8 +28,7 @@
       <div>
         <h4 class="font-semibold text-lg mb-4 text-ice-400">Informations</h4>
         <ul class="space-y-2 text-frost-300 text-sm">
-          <li>123 Avenue des Glaces</li>
-          <li>75001 Cotonou, Bénin</li>
+          <li>9C72+M8F, Rue 560, Cotonou</li>
           <li>Tél: 2290194961604</li>
           <li>Email: contact@francprix.fr</li>
         </ul>
@@ -55,7 +54,7 @@
     </div>
 
     <div class="border-t border-frost-800 mt-8 pt-8 text-center text-frost-400 text-sm">
-      <p>&copy; {{ new Date().getFullYear() }} FRANC-PRIX. Tous droits réservés.</p>
+      <p>&copy; {{ new Date().getFullYear() }} FRANCPRIX. Tous droits réservés.</p>
       <div class="mt-2 space-x-4">
         <a href="#" class="hover:text-ice-400 transition-colors">Mentions légales</a>
         <a href="#" class="hover:text-ice-400 transition-colors">Politique de confidentialité</a>

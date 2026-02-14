@@ -11,7 +11,7 @@
           <!-- TEXTE -->
           <!-- <div
             class="text-3xl font-display font-bold bg-gradient-to-r from-ice-500 to-ice-700 bg-clip-text text-transparent transition-all group-hover:scale-105"
-          >FRANC-PRIX</div> -->
+          >FRANCPRIX</div> -->
         </div>
       </NuxtLink>
 

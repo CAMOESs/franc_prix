@@ -16,9 +16,9 @@
 //   },
 //   app: {
 //     head: {
-//       title: 'FRANC-PRIX - Centre Commercial Premium',
+//       title: 'FRANCPRIX - Centre Commercial Premium',
 //       meta: [
-//         { name: 'description', content: 'Explorez nos produits frais et nos boissons rafraîchissantes chez FRANC-PRIX, votre centre commercial premium.' },
+//         { name: 'description', content: 'Explorez nos produits frais et nos boissons rafraîchissantes chez FRANCPRIX, votre centre commercial premium.' },
 //         { name: 'viewport', content: 'width=device-width, initial-scale=1' }
 //       ],
 //       link: [
@@ -64,11 +64,11 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'FRANC-PRIX - Centre Commercial Premium',
+      title: 'FRANCPRIX - Centre Commercial Premium',
       meta: [
         {
           name: 'description',
-          content: 'Explorez nos produits frais et nos boissons rafraîchissantes chez FRANC-PRIX, votre centre commercial premium.'
+          content: 'Explorez nos produits frais et nos boissons rafraîchissantes chez FRANCPRIX, votre centre commercial premium.'
         },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' }
       ],

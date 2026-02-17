@@ -12,7 +12,7 @@ export default defineEventHandler(async (event) => {
     // from: 'Contact <contact@franc-prix.vercel.app>',
     from: 'FRANCPRIX <onboarding@resend.dev>',
     // from: 'judedokpo@gmail.com',
-    to: ['Jeovanni896@gmail.com'],
+    to: [`${process.env.MAIL_TO}`],
     // to: ['camoesdokpa@gmail.com'],
     subject: `Nouveau message de ${name}`,
     html: `

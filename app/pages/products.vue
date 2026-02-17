@@ -126,7 +126,7 @@ onMounted(() => {
 useHead({
   title: 'Nos Produits - FREEZE',
   meta: [
-    { name: 'description', content: 'Découvrez notre sélection de produits premium chez FREEZE.' }
+    { name: 'description', content: 'Découvrez notre sélection de produits chez FRANCPRIX.' }
   ]
 })
 </script>

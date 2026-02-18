@@ -38,7 +38,7 @@ export const useProducts = () => {
     },
     {
       id: 'epicerie',
-      nom: 'Épicerie',
+      nom: 'Épicerie & Divers',
       count: 12,
       image: '/epicerie.jpeg'
     },
@@ -220,13 +220,35 @@ export const useProducts = () => {
       image: '/jus1/10.jpeg'
     },
     {
-      id: 5,
-      nom: 'Chips Nature',
-      description: 'Pommes de terre croustillantes',
+      id: 11,
+      nom: 'Boisson en canette',
+      description: `
+      Choix variante :
+        Pack 6x25cl
+        Pack 12x25cl
+        Canette
+        Bouteille individuelle
+
+        Pack 6x25cl
+        Pack 12x25cl
+        Bouteille 33cl
+        Bouteille 50cl`,
+      prix: conversionEuroToCFA('3,80€'),
+      categorie: 'Bière-Sucrerie-Jus',
+      categorieId: 'boissons',
+      image: '/jus1/10.jpeg'
+    },
+    {
+      id: 12,
+      nom: `Mevia |
+        Golden Penny |
+        King’s  |
+        Jadida `,
+      description: 'Produits à tartiner & matières grasses alimentaires',
       prix: conversionEuroToCFA('2,00€'),
-      categorie: 'Snacks',
-      categorieId: 'snacks',
-      image: 'https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?auto=compress&cs=tinysrgb&w=400'
+      categorie: 'Épicerie & Divers',
+      categorieId: 'epicerie',
+      image: '/epicerie_et_divers/1.png'
     },
     {
       id: 6,

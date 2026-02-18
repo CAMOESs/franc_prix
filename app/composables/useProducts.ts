@@ -4,13 +4,13 @@ export const useProducts = () => {
       id: 'boissons',
       nom: 'Bière-Sucrerie-Jus',
       count: 12,
-      image: 'https://images.pexels.com/photos/50593/coca-cola-cold-drink-soft-drink-coke-50593.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: '/fruit.png'
     },
     {
       id: 'biscuiterie',
       nom: 'Biscuiterie',
       count: 12,
-      image: '/cat_biscuit.jpg'
+      image: '/cat_biscuit.png'
     },
     {
       id: 'caves_liqueurs',
@@ -22,37 +22,37 @@ export const useProducts = () => {
       id: 'charcuterie',
       nom: 'Charcuterie',
       count: 12,
-      image: '/cat_charcuterie.jpg'
+      image: '/cat_charcuterie.png'
     },
     {
       id: 'coin-bebe',
       nom: 'Coin bébé',
       count: 12,
-      image: 'cat_bebe_.jpg'
+      image: 'cat_bebe_.jpeg'
     },
     {
       id: 'droguerie',
       nom: 'Droguerie',
       count: 12,
-      image: '/cat_droguerie.jpg'
+      image: '/cat_droguerie.png'
     },
     {
       id: 'epicerie',
       nom: 'Épicerie',
       count: 12,
-      image: 'https://images.pexels.com/photos/1435904/pexels-photo-1435904.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: '/epicerie.jpeg'
     },
     {
       id: 'pafumerie',
       nom: 'Pafumerie',
       count: 12,
-      image: '/cat_parfumerie.jpg'
+      image: '/cat_parfumerie.png'
     },
     {
       id: 'papeterie',
       nom: 'Papeterie',
       count: 12,
-      image: '/cat_papeterie.jpg'
+      image: '/cat_papeterie.png'
     },
     // {
     //   id: 'snacks',
@@ -105,27 +105,119 @@ export const useProducts = () => {
       Diarra Jus Naturel Baobab – Bouteille
       Diarra Pur Jus d’Ananas – Bouteille`,
       prix: conversionEuroToCFA('1,50€'),
-      categorie: 'Diarra Jus Naturel Bouteille',
+      categorie: 'Bière-Sucrerie-Jus',
       categorieId: 'boissons',
       image: '/jus1/2.jpeg'
     },
     {
       id: 3,
-      nom: 'Jus d\'Orange',
-      description: '100% pur jus pressé',
+      nom: 'Boisson aux graines de basilic Adija – Bouteille',
+      description: `
+      Choix variante :
+      Strawberry (Fraise)
+      Orange
+      White grape (Raisin blanc)
+      Mango (Mangue)
+      Pomegranate (Grenade)`,
       prix: conversionEuroToCFA('3,20€'),
-      categorie: 'Boissons',
+      categorie: 'Bière-Sucrerie-Jus',
       categorieId: 'boissons',
       image: '/jus1/3.jpeg'
     },
     {
       id: 4,
-      nom: 'Limonade Artisanale',
-      description: 'Boisson pétillante au citron',
+      nom: 'Belle France – Soda aromatisé',
+      description: `
+      Choix variante :
+        Diabolo Menthe
+        Diabolo Grenadine
+        Soda Citron
+        Soda Orange
+        Pulpe Orange`,
       prix: conversionEuroToCFA('3,80€'),
-      categorie: 'Boissons',
+      categorie: 'Bière-Sucrerie-Jus',
       categorieId: 'boissons',
-      image: 'https://images.pexels.com/photos/96974/pexels-photo-96974.jpeg?auto=compress&cs=tinysrgb&w=400'
+      image: '/jus1/4.jpeg'
+    },
+     {
+      id: 5,
+      nom: 'Belle France – Jus en bouteille',
+      description: `
+      Choix variante :
+        Pomme,
+        Orange`,
+      prix: conversionEuroToCFA('3,80€'),
+      categorie: 'Bière-Sucrerie-Jus',
+      categorieId: 'boissons',
+      image: '/jus1/5.jpeg'
+    },
+    {
+      id: 6,
+      nom: 'Frúto – Jus Naturel Traditionnel',
+      description: `
+      Choix variante :
+       Frúto Jus Naturel Bissap Menthe 
+       Frúto Jus Naturel Baobab 
+       Frúto Jus Naturel Gingembre 
+       Frúto Jus Naturel Citronnade 
+       Frúto Jus Naturel Bissap Ananas`,
+      prix: conversionEuroToCFA('3,80€'),
+      categorie: 'Bière-Sucrerie-Jus',
+      categorieId: 'boissons',
+      image: '/jus1/6.jpeg'
+    },
+    {
+      id: 7,
+      nom: 'Tourtel Twist | Baltus 10',
+      description: `
+      Choix variante :
+       Pack 6 bouteilles
+       Bouteille individuelle`,
+      prix: conversionEuroToCFA('3,80€'),
+      categorie: 'Bière-Sucrerie-Jus',
+      categorieId: 'boissons',
+      image: '/jus1/7.jpeg'
+    },
+    {
+      id: 8,
+      nom: 'Bière Belzebuth Strong Lager | Boisson énergisante Crazy Tiger Energy Drink | Boisson énergisante Monster Juiced Mango | Bière GAALLIA Champ Libre',
+      description: `
+      Choix variante :
+       Pack 50cl`,
+      prix: conversionEuroToCFA('3,80€'),
+      categorie: 'Bière-Sucrerie-Jus',
+      categorieId: 'boissons',
+      image: '/jus1/8.jpeg'
+    },
+    {
+      id: 9,
+      nom: 'Bière Kronenbourg 1664 Lager',
+      description: `
+      Choix variante :
+       Pack 6x25cl`,
+      prix: conversionEuroToCFA('3,80€'),
+      categorie: 'Bière-Sucrerie-Jus',
+      categorieId: 'boissons',
+      image: '/jus1/9.jpeg'
+    },
+    {
+      id: 10,
+      nom: 'Fischer Blonde Tradition | Leffe Ruby',
+      description: `
+      Choix variante :
+        Pack 6x25cl
+        Pack 12x25cl
+        Canette
+        Bouteille individuelle
+
+        Pack 6x25cl
+        Pack 12x25cl
+        Bouteille 33cl
+        Bouteille 50cl`,
+      prix: conversionEuroToCFA('3,80€'),
+      categorie: 'Bière-Sucrerie-Jus',
+      categorieId: 'boissons',
+      image: '/jus1/10.jpeg'
     },
     {
       id: 5,
